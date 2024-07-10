@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\API Projects\\To-Do List API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|e:\\api projects\\to-do list api\\to-do list api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Program.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\Program.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Program.cs",
+              "RelativeToolTip": "To-Do List API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T13:43:19.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
