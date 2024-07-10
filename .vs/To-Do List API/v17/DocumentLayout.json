@@ -3,8 +3,68 @@
   "WorkspaceRootPath": "E:\\API Projects\\To-Do List API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|e:\\api projects\\to-do list api\\to-do list api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|e:\\api projects\\to-do list api\\to-do list api\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\utils\\userscontrollerutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\utils\\userscontrollerutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\utils\\usercreationerrorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\utils\\usercreationerrorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\dtos\\user\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\dtos\\user\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\exceptions\\usercreationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\exceptions\\usercreationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\dtos\\user\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\dtos\\user\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|e:\\api projects\\to-do list api\\to-do list api\\to-do list api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\to-do list api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +74,219 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\DTOs\\User\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\DTOs\\User\\UpdateUserDto.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\DTOs\\User\\UpdateUserDto.cs",
+              "RelativeToolTip": "To-Do List API\\DTOs\\User\\UpdateUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T19:33:14.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "To-Do List API.csproj",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\To-Do List API.csproj",
+              "RelativeDocumentMoniker": "To-Do List API\\To-Do List API.csproj",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\To-Do List API.csproj",
+              "RelativeToolTip": "To-Do List API\\To-Do List API.csproj",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-10T18:52:24.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "To-Do List API\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T18:39:54.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\Interfaces\\IUserService.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "To-Do List API\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T18:38:20.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserCreationException.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Exceptions\\UserCreationException.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\Exceptions\\UserCreationException.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Exceptions\\UserCreationException.cs",
+              "RelativeToolTip": "To-Do List API\\Exceptions\\UserCreationException.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA5wA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T18:25:15.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserCreationErrorHandler.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Utils\\UserCreationErrorHandler.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\Utils\\UserCreationErrorHandler.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Utils\\UserCreationErrorHandler.cs",
+              "RelativeToolTip": "To-Do List API\\Utils\\UserCreationErrorHandler.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T17:58:46.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersControllerUtils.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Utils\\UsersControllerUtils.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\Utils\\UsersControllerUtils.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Utils\\UsersControllerUtils.cs",
+              "RelativeToolTip": "To-Do List API\\Utils\\UsersControllerUtils.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T15:11:40.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\Controllers\\UsersController.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "To-Do List API\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAuwEwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:31:54.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Persistence\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\Persistence\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Persistence\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "To-Do List API\\Persistence\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T18:47:15.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\Services\\UserService.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Services\\UserService.cs",
+              "RelativeToolTip": "To-Do List API\\Services\\UserService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowC0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:46:39.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserResponseDto.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\DTOs\\User\\UserResponseDto.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\DTOs\\User\\UserResponseDto.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\DTOs\\User\\UserResponseDto.cs",
+              "RelativeToolTip": "To-Do List API\\DTOs\\User\\UserResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:38:44.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserCreateDto.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\DTOs\\User\\UserCreateDto.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\DTOs\\User\\UserCreateDto.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\DTOs\\User\\UserCreateDto.cs",
+              "RelativeToolTip": "To-Do List API\\DTOs\\User\\UserCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:37:38.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\Persistence\\AppDbContext.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "To-Do List API\\Persistence\\AppDbContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:25:02.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToDoItem.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Models\\ToDoItem.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\Models\\ToDoItem.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Models\\ToDoItem.cs",
+              "RelativeToolTip": "To-Do List API\\Models\\ToDoItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:08:19.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\Models\\User.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Models\\User.cs",
+              "RelativeToolTip": "To-Do List API\\Models\\User.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:06:37.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Program.cs",
               "RelativeDocumentMoniker": "To-Do List API\\Program.cs",
               "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Program.cs",
               "RelativeToolTip": "To-Do List API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T13:43:19.792Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             }
           ]
         }
