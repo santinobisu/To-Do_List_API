@@ -1,22 +1,22 @@
 ﻿namespace To_Do_List_API.Exceptions
 {
-    public class UserCreationException : Exception
+    public class ToDoItemCreationException : Exception
     {
         public List<string> Errors { get; }
 
-        public UserCreationException()
+        public ToDoItemCreationException()
         {
             Errors = new List<string>();
         }
 
-        public UserCreationException(string message)
+        public ToDoItemCreationException(string message)
         : base(message)
         {
             Errors = new List<string> { message };
         }
 
-        public UserCreationException(List<string> errors)
-        : base("User creation failed due to validation errors.")
+        public ToDoItemCreationException(List<string> errors)
+        : base("To-Do Item creation failed due to validation errors.")
         {
             Errors = errors;
         }

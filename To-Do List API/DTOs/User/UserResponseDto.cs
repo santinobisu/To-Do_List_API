@@ -7,7 +7,5 @@ namespace To_Do_List_API.DTOs.User
         public Guid UserId { get; set; }
         public string Username { get; set; } = null!;
         public DateTime DateCreated { get; set; }
-        public List<ToDoItem> ToDoItems { get; set; } = null!;
-
     }
 }

@@ -7,7 +7,7 @@ using To_Do_List_API.Utils;
 namespace To_Do_List_API.Controllers
 {
     [Controller]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class UsersController : ControllerBase
     {
         private readonly IUserService _userService;
@@ -17,7 +17,7 @@ namespace To_Do_List_API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<UserResponseDto>> CreateUser([FromBody] UserCreateDto request)
+        public async Task<ActionResult<UserResponseDto>> CreateUser([FromBody] CreateUserDto request)
         {
             if (request == null)
             {

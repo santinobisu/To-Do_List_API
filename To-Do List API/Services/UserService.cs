@@ -1,4 +1,5 @@
-﻿using To_Do_List_API.Interfaces;
+﻿using To_Do_List_API.Exceptions;
+using To_Do_List_API.Interfaces;
 using To_Do_List_API.Models;
 using To_Do_List_API.Utils;
 
@@ -16,7 +17,12 @@ namespace To_Do_List_API.Services
             // Data Validation
             UserCreationErrorHandler.HandleErrors(username, password);
 
-            // TODO: Check if the username already exists
+            // Check if username already exists
+            var checkUser = await _userRepository.GetUserByUsername(username);
+            if (checkUser != null)
+            {
+                throw new UserCreationException("Username is already in use.");
+            }
 
             string hashedPassword = BCrypt.Net.BCrypt.HashPassword(password);
 
@@ -44,6 +50,16 @@ namespace To_Do_List_API.Services
         public async Task DeleteUserById(Guid id)
         {
             await _userRepository.DeleteUserById(id);
+        }
+
+        public async Task<User?> Authenticate(string username, string password)
+        {
+            var user = await _userRepository.GetUserByUsername(username);
+
+            if (user == null || !BCrypt.Net.BCrypt.Verify(password, user.PasswordHash))
+                return null;
+
+            return user;
         }
     }
 }

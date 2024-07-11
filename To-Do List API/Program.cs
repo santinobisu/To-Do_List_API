@@ -1,4 +1,6 @@
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
+using To_Do_List_API.Authentication;
 using To_Do_List_API.Interfaces;
 using To_Do_List_API.Persistence;
 using To_Do_List_API.Persistence.Repositories;
@@ -15,6 +17,12 @@ var builder = WebApplication.CreateBuilder(args);
 
     builder.Services.AddScoped<IUserService, UserService>();
     builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+    builder.Services.AddScoped<IToDoItemsService, ToDoItemsService>();
+    builder.Services.AddScoped<IToDoItemsRepository, ToDoItemsRepository>();
+
+    builder.Services.AddAuthentication("BasicAuthentication")
+        .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);
 }
 
 
@@ -22,7 +30,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Configure the HTTP request pipeline.
 var app = builder.Build();
 {
-    //app.UseAuthorization();
+    app.UseAuthentication();
+    app.UseAuthorization();
     app.MapControllers();
     app.Run();
 

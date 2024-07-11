@@ -25,6 +25,14 @@ namespace To_Do_List_API.Persistence.Repositories
 
             return getUserResult;
         }
+        public async Task<User?> GetUserByUsername(string username)
+        {
+            var getUserResult = await _appDbContext.Users
+                .Include(u => u.ToDoItems)
+                .FirstOrDefaultAsync(u => u.Username == username);
+
+            return getUserResult;
+        }
 
         public async Task DeleteUserById(Guid id)
         {

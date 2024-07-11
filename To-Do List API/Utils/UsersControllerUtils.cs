@@ -12,8 +12,7 @@ namespace To_Do_List_API.Utils
             {
                 UserId = user.UserId,
                 Username = user.Username,
-                DateCreated = user.DateCreated,
-                ToDoItems = user.ToDoItems
+                DateCreated = user.DateCreated
             };
         }
     }

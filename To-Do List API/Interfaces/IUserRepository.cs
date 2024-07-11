@@ -7,5 +7,6 @@ namespace To_Do_List_API.Interfaces
         Task CreateUser(User newUser);
         Task<User?> GetUserById(Guid id);
         Task DeleteUserById(Guid id);
+        Task<User?> GetUserByUsername(string username);
     }
 }
