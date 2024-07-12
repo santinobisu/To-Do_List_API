@@ -36,9 +36,9 @@ namespace To_Do_List_API.Services
 
             return newToDoItem;
         }
-        public async Task<IEnumerable<ToDoItem>> GetToDoItemsByUser(Guid id)
+        public async Task<IEnumerable<ToDoItem>> GetToDoItemsByUser(Guid id, bool? isCompleted, DateTime? dueDate)
         {
-            return await _toDoItemRepository.GetToDoItemsByUser(id);
+            return await _toDoItemRepository.GetToDoItemsByUser(id, isCompleted, dueDate);
         }
 
         public async Task DeleteToDoItemByUser(Guid userId, Guid toDoItemId)
@@ -47,9 +47,11 @@ namespace To_Do_List_API.Services
         }
 
 
-        public async Task<ToDoItem?> UpdateToDoItemByUser(Guid userId, Guid toDoItemId, UpdateToDoItemDto request)
+        public async Task<ToDoItem?> UpdateToDoItemByUser(Guid userId, Guid toDoItemId)
         {
-            throw new NotImplementedException();
+            var result = await _toDoItemRepository.UpdateToDoItemByUser(userId, toDoItemId);
+
+            return result;
         }
     }
 }

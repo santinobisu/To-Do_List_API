@@ -7,19 +7,23 @@
       "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\persistence\\repositories\\todoitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\services\\todoitemsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\services\\todoitemsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|e:\\api projects\\to-do list api\\to-do list api\\persistence\\repositories\\todoitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\persistence\\repositories\\todoitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|e:\\api projects\\to-do list api\\to-do list api\\services\\todoitemsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\services\\todoitemsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|e:\\api projects\\to-do list api\\to-do list api\\interfaces\\itodoitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\interfaces\\itodoitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\authentication\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\authentication\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|e:\\api projects\\to-do list api\\to-do list api\\utils\\todoitemcontrollerutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\utils\\todoitemcontrollerutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\utils\\todoitemcontrollerutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\utils\\todoitemcreationerrorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|e:\\api projects\\to-do list api\\to-do list api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|E:\\API Projects\\To-Do List API\\to-do list api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB222F00-BDF5-4C3A-BD46-421134CD0082}|To-Do List API\\To-Do List API.csproj|solutionrelative:to-do list api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,32 +50,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ToDoItemsController.cs",
-              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Controllers\\ToDoItemsController.cs",
-              "RelativeDocumentMoniker": "To-Do List API\\Controllers\\ToDoItemsController.cs",
-              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Controllers\\ToDoItemsController.cs",
-              "RelativeToolTip": "To-Do List API\\Controllers\\ToDoItemsController.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAIwFQAAAANAAAA",
+              "DocumentIndex": 3,
+              "Title": "IToDoItemsRepository.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Interfaces\\IToDoItemsRepository.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\Interfaces\\IToDoItemsRepository.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Interfaces\\IToDoItemsRepository.cs",
+              "RelativeToolTip": "To-Do List API\\Interfaces\\IToDoItemsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T20:29:22.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ToDoItemControllerUtils.cs",
-              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Utils\\ToDoItemControllerUtils.cs",
-              "RelativeDocumentMoniker": "To-Do List API\\Utils\\ToDoItemControllerUtils.cs",
-              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Utils\\ToDoItemControllerUtils.cs",
-              "RelativeToolTip": "To-Do List API\\Utils\\ToDoItemControllerUtils.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAYwBQAAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T19:32:41.762Z",
+              "WhenOpened": "2024-07-12T14:59:42.672Z",
               "EditorCaption": ""
             },
             {
@@ -80,7 +71,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "ToDoItemsRepository.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Persistence\\Repositories\\ToDoItemsRepository.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\Persistence\\Repositories\\ToDoItemsRepository.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Persistence\\Repositories\\ToDoItemsRepository.cs",
+              "RelativeToolTip": "To-Do List API\\Persistence\\Repositories\\ToDoItemsRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwBYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T14:42:18.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ToDoItemsController.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Controllers\\ToDoItemsController.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\Controllers\\ToDoItemsController.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Controllers\\ToDoItemsController.cs",
+              "RelativeToolTip": "To-Do List API\\Controllers\\ToDoItemsController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAkwEcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T20:29:22.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ToDoItemControllerUtils.cs",
+              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Utils\\ToDoItemControllerUtils.cs",
+              "RelativeDocumentMoniker": "To-Do List API\\Utils\\ToDoItemControllerUtils.cs",
+              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Utils\\ToDoItemControllerUtils.cs",
+              "RelativeToolTip": "To-Do List API\\Utils\\ToDoItemControllerUtils.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAYwBQAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T19:32:41.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Program.cs",
               "RelativeDocumentMoniker": "To-Do List API\\Program.cs",
@@ -88,12 +117,11 @@
               "RelativeToolTip": "To-Do List API\\Program.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T19:23:11.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T19:23:11.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UserService.cs",
               "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "To-Do List API\\Services\\UserService.cs",
@@ -101,12 +129,11 @@
               "RelativeToolTip": "To-Do List API\\Services\\UserService.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T19:05:38.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T19:05:38.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserCreationErrorHandler.cs",
               "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Utils\\UserCreationErrorHandler.cs",
               "RelativeDocumentMoniker": "To-Do List API\\Utils\\UserCreationErrorHandler.cs",
@@ -118,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ToDoItemCreationErrorHandler.cs",
               "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Utils\\ToDoItemCreationErrorHandler.cs",
               "RelativeDocumentMoniker": "To-Do List API\\Utils\\ToDoItemCreationErrorHandler.cs",
@@ -126,18 +153,17 @@
               "RelativeToolTip": "To-Do List API\\Utils\\ToDoItemCreationErrorHandler.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAowCUAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T15:26:29.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T15:26:29.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BasicAuthenticationHandler.cs",
               "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Authentication\\BasicAuthenticationHandler.cs",
               "RelativeDocumentMoniker": "To-Do List API\\Authentication\\BasicAuthenticationHandler.cs",
               "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Authentication\\BasicAuthenticationHandler.cs",
               "RelativeToolTip": "To-Do List API\\Authentication\\BasicAuthenticationHandler.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAywCIAAAA4AAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAADwvyQAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T15:09:03.554Z",
               "EditorCaption": ""
@@ -145,25 +171,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ToDoItemsRepository.cs",
-              "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Persistence\\Repositories\\ToDoItemsRepository.cs",
-              "RelativeDocumentMoniker": "To-Do List API\\Persistence\\Repositories\\ToDoItemsRepository.cs",
-              "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Persistence\\Repositories\\ToDoItemsRepository.cs",
-              "RelativeToolTip": "To-Do List API\\Persistence\\Repositories\\ToDoItemsRepository.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwCMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T15:08:34.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ToDoItemsService.cs",
               "DocumentMoniker": "E:\\API Projects\\To-Do List API\\To-Do List API\\Services\\ToDoItemsService.cs",
               "RelativeDocumentMoniker": "To-Do List API\\Services\\ToDoItemsService.cs",
               "ToolTip": "E:\\API Projects\\To-Do List API\\To-Do List API\\Services\\ToDoItemsService.cs",
               "RelativeToolTip": "To-Do List API\\Services\\ToDoItemsService.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAkwC0AAABPAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAkwCgAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T15:00:18.709Z",
               "EditorCaption": ""

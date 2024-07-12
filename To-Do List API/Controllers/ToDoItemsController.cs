@@ -54,12 +54,14 @@ namespace To_Do_List_API.Controllers
 
         [HttpGet]
         [Authorize]
-        public async Task<ActionResult<List<ToDoItemResponseDto>>> GetToDoItems()
+        public async Task<ActionResult<List<ToDoItemResponseDto>>> GetToDoItems(
+            [FromQuery] bool? isCompleted = null,
+            [FromQuery] DateTime? dueDate = null)
         {
             try
             {
                 var userId = Guid.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
-                var items = await _toDoItemsService.GetToDoItemsByUser(userId);
+                var items = await _toDoItemsService.GetToDoItemsByUser(userId, isCompleted, dueDate);
                 var response = ToDoItemControllerUtils.MapItemCollectionResponse(items);
                 return Ok(response);
             }
@@ -78,6 +80,26 @@ namespace To_Do_List_API.Controllers
                 var userId = Guid.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
                 await _toDoItemsService.DeleteToDoItemByUser(userId, id);
                 return NoContent();
+            }
+            catch (Exception)
+            {
+                return Problem(statusCode: StatusCodes.Status500InternalServerError, detail: "An error has occurred while processing the request.");
+            }
+        }
+
+        [HttpPut("{id:guid}")]
+        [Authorize]
+        public async Task<ActionResult<ToDoItemResponseDto>> UpdateToDoItem(Guid id)
+        {
+            try
+            {
+                var userId = Guid.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
+                var updatedItem = await _toDoItemsService.UpdateToDoItemByUser(userId, id);
+
+                if (updatedItem is null) return Problem(statusCode: StatusCodes.Status404NotFound, detail: "Requested To-Do Item wasn't found.");
+
+                var response = ToDoItemControllerUtils.MapToItemResponse(updatedItem);
+                return Ok(response);
             }
             catch (Exception)
             {

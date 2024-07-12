@@ -6,8 +6,8 @@ namespace To_Do_List_API.Interfaces
     public interface IToDoItemsRepository
     {
         Task CreateToDoItem(ToDoItem newToDoItem);
-        Task<IEnumerable<ToDoItem>> GetToDoItemsByUser(Guid id);
+        Task<IEnumerable<ToDoItem>> GetToDoItemsByUser(Guid id, bool? isCompleted, DateTime? dueDate);
         Task DeleteToDoItemByUser(Guid userId, Guid toDoItemId);
-        Task<ToDoItem?> UpdateToDoItemByUser(Guid userId, Guid toDoItemId, ToDoItem newToDoItem);
+        Task<ToDoItem?> UpdateToDoItemByUser(Guid userId, Guid toDoItemId);
     }
 }

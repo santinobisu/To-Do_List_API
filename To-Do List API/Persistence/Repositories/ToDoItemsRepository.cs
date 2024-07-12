@@ -18,9 +18,17 @@ namespace To_Do_List_API.Persistence.Repositories
             await _appDbContext.ToDoItems.AddAsync(newToDoItem);
             await _appDbContext.SaveChangesAsync();
         }
-        public async Task<IEnumerable<ToDoItem>> GetToDoItemsByUser(Guid id)
+        public async Task<IEnumerable<ToDoItem>> GetToDoItemsByUser(Guid id, bool? isCompleted, DateTime? dueDate)
         {
-            return await _appDbContext.ToDoItems.Where(t => t.UserId == id).ToListAsync();
+            IQueryable<ToDoItem> query =  _appDbContext.ToDoItems.Where(t => t.UserId == id);
+
+            if (isCompleted != null)
+                query = query.Where(t => t.IsCompleted == isCompleted);
+
+            if (dueDate != null)
+                query = query.Where(t => t.DueDate >= dueDate);
+
+            return await query.ToListAsync();
         }
 
         public async Task DeleteToDoItemByUser(Guid userId, Guid toDoItemId)
@@ -37,9 +45,21 @@ namespace To_Do_List_API.Persistence.Repositories
         }
 
 
-        public async Task<ToDoItem?> UpdateToDoItemByUser(Guid userId, Guid toDoItemId, ToDoItem newToDoItem)
+        public async Task<ToDoItem?> UpdateToDoItemByUser(Guid userId, Guid toDoItemId)
         {
-            throw new NotImplementedException();
+            var itemToUpdate = await _appDbContext.ToDoItems.Where(t => t.UserId == userId && t.ToDoItemId == toDoItemId)
+                .FirstOrDefaultAsync();
+
+            if (itemToUpdate is null)
+                return null;
+
+            if (itemToUpdate.IsCompleted is true)
+                itemToUpdate.IsCompleted = false;
+            else itemToUpdate.IsCompleted = true;
+
+            await _appDbContext.SaveChangesAsync();
+
+            return itemToUpdate;
         }
     }
 }
